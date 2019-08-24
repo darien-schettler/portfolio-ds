@@ -7,8 +7,10 @@
                         <div class="text-left">
                             <h1 class="py-3 text-white">Hi. I'm Darien Schettler.<br /></h1>
                             <h1 class="py-3 ml-lg-4 text-teal-50" style="font-size: 200%;">
-                                <router-link to="/about" class="hero-link text-teal-A400">A machine-learning engineer, </router-link>
-                                <router-link to="/about" class="hero-link text-teal-A200">full-stack developer, </router-link>
+                                <router-link to="/about" class="hero-link text-teal-A400">A machine-learning engineer,
+                                </router-link>
+                                <router-link to="/about" class="hero-link text-teal-A200">full-stack developer,
+                                </router-link>
                                 and
                                 <router-link to="/about" class="hero-link text-teal-A100">scientist</router-link>
                                 with a history of building and leading exceptional teams.
@@ -110,21 +112,44 @@
                         <div class="card-header grad-1 py-4 text-center" id="headingOne">
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed font-weight-bold text-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 75%; text-decoration: none;">
-                                    Github · Histopathologic Cancer Detection · Python Jupyter Notebook
+                                    Github · Histopathologic Cancer Detection · Python Jupyter
+                                    Notebook
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body px-5 mx-lg-5 text-center">
-                                <p>This is a project that utilizes basic machine learning and data exploration techniques to both explore, and create a baseline model for, the dataset/competition 'Histopathologic Cancer Detection'.</p>
-                                <p>The image below shows examples of images to be classified. Note the red-dotted square indicates that there is cancerous tissue within, while the blue-dotted square indicates benign tissue.</p>
-                                <img src="../assets/images/github_histo.png" alt="Histopathologic Cancer Images">
-                                <br><br>
-                                <p>The baseline model is a headless VGG-16 model initialized with weights from Image-NET. A fully-connected layer followed by 40% dropout is added which then converges into a single node (sigmoid activation for binary classification)</p>
-                                <p>The baseline model achieves a validation accuracy of <span class="font-weight-bold">~96%</span> after ten epochs</p>
-                                <p>The image below is displaying a confusion matrix showing the correlations between features included in the dataset prior to preprocessing.</p>
-                                <a href="https://github.com/darien-schettler/histopathologic-cancer-detection" title="Github" class="btn btn-light px-5 py-3 mt-2"><span class="font-weight-bold">Link to Github Repo</span> <img src="../assets/icons/github_2.svg" alt="Github" width='30px' class="mb-1 ml-2"></a>
-
+                                <p>
+                                    This is a project that utilizes basic machine learning and
+                                    data exploration techniques to both explore, and create a
+                                    baseline model for, the dataset/competition 'Histopathologic
+                                    Cancer Detection'.
+                                </p>
+                                <p>
+                                    The image below shows examples of images to be classified.
+                                    Note the red-dotted square indicates that there is cancerous
+                                    tissue within, while the blue-dotted square indicates benign
+                                    tissue.
+                                </p>
+                                <img src="../assets/images/github_histo.png" alt="Histopathologic Cancer Images" />
+                                <br /><br />
+                                <p>
+                                    The baseline model is a headless VGG-16 model initialized with
+                                    weights from Image-NET. A fully-connected layer followed by
+                                    40% dropout is added which then converges into a single node
+                                    (sigmoid activation for binary classification)
+                                </p>
+                                <p>
+                                    The baseline model achieves a validation accuracy of
+                                    <span class="font-weight-bold">~96%</span> after ten epochs
+                                </p>
+                                <p>
+                                    The image below is displaying a confusion matrix showing the
+                                    correlations between features included in the dataset prior to
+                                    preprocessing.
+                                </p>
+                                <a href="https://github.com/darien-schettler/histopathologic-cancer-detection" title="Github" class="btn btn-light px-5 py-3 mt-2"><span class="font-weight-bold">Link to Github Repo</span>
+                                    <img src="../assets/icons/github_2.svg" alt="Github" width="30px" class="mb-1 ml-2" /></a>
                             </div>
                         </div>
                     </div>
@@ -132,22 +157,31 @@
                         <div class="card-header grad-1 py-4 text-center" id="headingTwo">
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed font-weight-bold text-dark" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 75%; text-decoration: none;">
-                                    Github · House Sales in King-County EDA/Models · Google Colab Notebook
+                                    Github · House Sales in King-County EDA/Models · Google Colab
+                                    Notebook
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body px-5 mx-lg-5 text-center">
                                 <p>
-                                    This is a notebook that utilizes basic machine learning and in-depth data exploration techniques to explore and create baseline models for, the dataset/competition 'House Sales in King-County'.
+                                    This is a notebook that utilizes basic machine learning and
+                                    in-depth data exploration techniques to explore and create
+                                    baseline models for, the dataset/competition 'House Sales in
+                                    King-County'.
                                 </p>
                                 <p>
-                                    This is a solid example of structured data that can be heavily pre-processed to obtain better results. The preprocessing and data-cleaning is the focus of this tutorial I made and the modelling at the end is just one solution of many that would be appropriate.    
+                                    This is a solid example of structured data that can be heavily
+                                    pre-processed to obtain better results. The preprocessing and
+                                    data-cleaning is the focus of this tutorial I made and the
+                                    modelling at the end is just one solution of many that would
+                                    be appropriate.
                                 </p>
                                 <div>
-                                    <img src="../assets/images/github_kc_confusion.jpg" class="mx-auto w-25 img-fluid" alt="King County Housing Confusion Matrix">
+                                    <img src="../assets/images/github_kc_confusion.jpg" class="mx-auto w-25 img-fluid" alt="King County Housing Confusion Matrix" />
                                 </div>
-                                <a href="https://github.com/darien-schettler/king-county-house-price-eda-and-model" title="Github" class="btn btn-light px-5 py-3 mt-2"><span class="font-weight-bold">Link to Github Repo</span> <img src="../assets/icons/github_2.svg" alt="Github" width='30px' class="mb-1 ml-2"></a>
+                                <a href="https://github.com/darien-schettler/king-county-house-price-eda-and-model" title="Github" class="btn btn-light px-5 py-3 mt-2"><span class="font-weight-bold">Link to Github Repo</span>
+                                    <img src="../assets/icons/github_2.svg" alt="Github" width="30px" class="mb-1 ml-2" /></a>
                             </div>
                         </div>
                     </div>
@@ -155,28 +189,113 @@
                         <div class="card-header grad-1 py-4 text-center" id="headingThree">
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed text-dark font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 75%; text-decoration: none;">
-                                    Github · Very Detailed How-To & EDA of MNIST Modelling Using Keras · Python Jupyter Notebook   
+                                    Github · Very Detailed How-To & EDA of MNIST Modelling Using
+                                    Keras · Python Jupyter Notebook
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body px-5 mx-lg-5 text-center">
-                                    <p>This is a tutorial/how-to document that I wrote detailing how to create a model for multi-class classification in Keras. The dataset used is MNIST to keep things as simple as possible for those learning.</p>
-                                    <p>The tutorial explores how to preprocess the data step-by-step before beginning an exploration of 5 different types of models that could be used to tackle this problem
-                                    </p>
-                                        <p class="pt-3 pb-1 m-0"><span class="font-weight-bold">Model 1 ·</span> Simple One Layer Neural Network (Stochastic Gradient Descent)</p>
-                                        <p class="py-1 m-0"><span class="font-weight-bold">Model 2 ·</span> Basic Five Layer Neural Network (Multilayer Perceptron)</p>
-                                        <p class="py-1 m-0"><span class="font-weight-bold">Model 3 ·</span> Five Layer Neural Network With Adam & Dropout & Regularization</p> 
-                                        <p class="py-1 m-0"><span class="font-weight-bold">Model 4 ·</span> Small Convolutional Neural Network Trained From Scratch</p>
-                                        <p class="py-1 m-0"><span class="font-weight-bold">Model 5 ·</span> Larger Convolutional Neural Network Trained From Scratch</p>
-                                        <p class="text-faded pt-1 pb-2 m-0"><span class="font-weight-bold">Model 6 ·</span> Convolutional Neural Network Utilizing Transfer Learning (TBD)</p>
-                                    <div>
-                                        <img src="../assets/images/github_mnist_graphs.jpg" alt="Mnist Training Graphs - 5 Models" class="mx-auto w-75 img-fluid"></div>
-                                    <a href="https://github.com/darien-schettler/mnist-with-keras" title="Github" class="btn btn-light px-5 py-3 mt-2"><span class="font-weight-bold">Link to Github Repo</span> <img src="../assets/icons/github_2.svg" alt="Github" width='30px' class="mb-1 ml-2"></a>
+                                <p>
+                                    This is a tutorial/how-to document that I wrote detailing how
+                                    to create a model for multi-class classification in Keras. The
+                                    dataset used is MNIST to keep things as simple as possible for
+                                    those learning.
+                                </p>
+                                <p>
+                                    The tutorial explores how to preprocess the data step-by-step
+                                    before beginning an exploration of 5 different types of models
+                                    that could be used to tackle this problem
+                                </p>
+                                <p class="pt-3 pb-1 m-0">
+                                    <span class="font-weight-bold">Model 1 ·</span> Simple One
+                                    Layer Neural Network (Stochastic Gradient Descent)
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 2 ·</span> Basic Five
+                                    Layer Neural Network (Multilayer Perceptron)
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 3 ·</span> Five Layer
+                                    Neural Network With Adam & Dropout & Regularization
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 4 ·</span> Small
+                                    Convolutional Neural Network Trained From Scratch
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 5 ·</span> Larger
+                                    Convolutional Neural Network Trained From Scratch
+                                </p>
+                                <p class="text-faded pt-1 pb-2 m-0">
+                                    <span class="font-weight-bold">Model 6 ·</span> Convolutional
+                                    Neural Network Utilizing Transfer Learning (TBD)
+                                </p>
+                                <div>
+                                    <img src="../assets/images/github_mnist_graphs.jpg" alt="Mnist Training Graphs - 5 Models" class="mx-auto w-75 img-fluid" />
+                                </div>
+                                <a href="https://github.com/darien-schettler/mnist-with-keras" title="Github" class="btn btn-light px-5 py-3 mt-2"><span class="font-weight-bold">Link to Github Repo</span>
+                                    <img src="../assets/icons/github_2.svg" alt="Github" width="30px" class="mb-1 ml-2" /></a>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="card rounded-lg shadow my-2">
+                    <div class="card rounded shadow my-3">
+                        <div class="card-header grad-1 py-4 text-center" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed text-dark font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 75%; text-decoration: none;">
+                                    Github · 4th Place Solution to P&G's Sentiment
+                                    Classification Competition · Python Jupyter Notebook
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body px-5 mx-lg-5 text-center">
+                                <p>
+                                    This is a tutorial/how-to document that I wrote detailing
+                                    how to create a model for multi-class classification in
+                                    Keras. The dataset used is MNIST to keep things as simple as
+                                    possible for those learning.
+                                </p>
+                                <p>
+                                    The tutorial explores how to preprocess the data
+                                    step-by-step before beginning an exploration of 5 different
+                                    types of models that could be used to tackle this problem
+                                </p>
+                                <p class="pt-3 pb-1 m-0">
+                                    <span class="font-weight-bold">Model 1 ·</span> Simple One
+                                    Layer Neural Network (Stochastic Gradient Descent)
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 2 ·</span> Basic Five
+                                    Layer Neural Network (Multilayer Perceptron)
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 3 ·</span> Five Layer
+                                    Neural Network With Adam & Dropout & Regularization
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 4 ·</span> Small
+                                    Convolutional Neural Network Trained From Scratch
+                                </p>
+                                <p class="py-1 m-0">
+                                    <span class="font-weight-bold">Model 5 ·</span> Larger
+                                    Convolutional Neural Network Trained From Scratch
+                                </p>
+                                <p class="text-faded pt-1 pb-2 m-0">
+                                    <span class="font-weight-bold">Model 6 ·</span>
+                                    Convolutional Neural Network Utilizing Transfer Learning
+                                    (TBD)
+                                </p>
+                                <div>
+                                    <img src="../assets/images/github_mnist_graphs.jpg" alt="Mnist Training Graphs - 5 Models" class="mx-auto w-75 img-fluid" />
+                                </div>
+                                <a href="https://github.com/darien-schettler/mnist-with-keras" title="Github" class="btn btn-light px-5 py-3 mt-2"><span class="font-weight-bold">Link to Github Repo</span>
+                                    <img src="../assets/icons/github_2.svg" alt="Github" width="30px" class="mb-1 ml-2" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="card rounded-lg shadow my-2">
                         <div class="card-header grad-1 py-4 text-center" id="headingOne">
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed font-weight-bold text-dark" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -219,10 +338,9 @@
                             </div>
                         </div>
                     </div> -->
-                </div>
             </section>
-            <section id="about-me"></section>
         </div>
+        <section id="about-me"></section>
     </div>
 </template>
 <script>
@@ -454,9 +572,19 @@ button.scroll_down:before {
         box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
     }
 }
-.grad-1{
-background: #0cebeb;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, lighten(#29ffc6,33%), lighten(#20e3b2,33%), lighten(#0cebeb,33%));  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, lighten(#29ffc6,33%), lighten(#20e3b2,33%), lighten(#0cebeb,33%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.grad-1 {
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+        lighten(#29ffc6, 33%),
+        lighten(#20e3b2, 33%),
+        lighten(#0cebeb, 33%));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,
+        lighten(#29ffc6, 33%),
+        lighten(#20e3b2, 33%),
+        lighten(#0cebeb, 33%));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 </style>
