@@ -1,6 +1,7 @@
 <template>
   <nav
     class="navbar navbar-expand-lg px-5 fixed-top"
+    id="pageRoof"
     :class="{
       'bg-transparent navbar-dark': topOfPage && !droppedDown,
       'bg-light navbar-light': !topOfPage || droppedDown
@@ -28,16 +29,16 @@
           >
         </li>
         <li class="nav-item px-lg-2 py-1">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item px-lg-2 py-1">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#about">About Me</a>
         </li>
         <li class="nav-item px-lg-2 py-1">
-          <a class="nav-link" href="#">Resume</a>
+          <a class="nav-link" href="#resume">Resume</a>
         </li>
         <li class="nav-item px-lg-2 py-1">
-          <a class="nav-link" href="#">Contact </a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>

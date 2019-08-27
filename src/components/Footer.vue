@@ -1,12 +1,12 @@
 <template>
-  <footer class="footer bg-white text-white">
+  <footer class="footer bg-white text-white" id="contact">
     <section class="container-fluid py-4 px-5">
       <div class="row justify-content-between">
         <div class="col-lg-7 my-auto py-3">
           <div class="row">
             <div class="col-lg-7 py-3 my-auto text-center">
               <h3 class="font-weight-bold text-dark my-auto">
-                Hiring ? Looking to Start a Project ?
+                Questions ? Looking to Start a Project ?
               </h3>
             </div>
             <div class="col-lg-4 py-3 my-auto text-center">
